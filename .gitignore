@@ -1,0 +1,16 @@
+.vscode/
+
+# build outputs
+build/
+bin/
+
+# large/generated local artifacts
+*.db
+*.db-*
+*.db-shm
+*.db-wal
+*.shm
+*.wal
+
+# videos (sample/results)
+*.mp4
