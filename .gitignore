@@ -1,10 +1,13 @@
+#VSCode 相关配置目录
 .vscode/
 
-# build outputs
+# 编译输出目录
 build/
+
+# 可执行文件目录
 bin/
 
-# large/generated local artifacts
+# large/generated local artifacts（文件）
 *.db
 *.db-*
 *.db-shm
