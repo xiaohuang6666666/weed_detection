@@ -180,7 +180,6 @@ void detect_camera(const std::string& enginePath, int device = 0)
         double elapsed_s = std::chrono::duration<double>(now - t0).count();
         if (elapsed_s > 1e-6) proc_fps = frame_cnt / elapsed_s;
         cv::putText(frame, cv::format("proc FPS: %.2f", proc_fps), cv::Point(10, 30), cv::FONT_HERSHEY_SIMPLEX, 0.8, cv::Scalar(0, 255, 0), 2);
-
         cv::imshow(window_name, frame);
 
         // 按 ESC 退出
